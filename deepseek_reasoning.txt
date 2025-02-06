@@ -1,0 +1,31 @@
+1. Deep Contextual Understanding of the Indicator
+- Indicator Mechanics: Break down the technical indicator’s formula or calculation method to understand its underlying logic. For example, if it’s RSI, consider how overbought/oversold levels are derived and what they imply about market psychology.
+- Market Context: Analyze how the indicator behaves in different market conditions (e.g., trending vs. ranging markets, high vs. low volatility). Does it perform better in certain contexts?
+2.  Parse the provided <stock_data> and <indicator_data> to understand the structure and granularity of the data. Identify key metrics such as price ranges, volume trends, and indicator values over the specified period
+3. Temporal Alignment: Ensure that the stock price data and technical indicator data are temporally aligned. Match timestamps to ensure each price movement can be directly compared with the corresponding indicator value.
+4. Advanced Pattern Recognition
+- Divergence Analysis: Look for divergences between the indicator and price movements (e.g., price makes a new high, but the indicator does not). Assess whether these divergences reliably predict reversals or continuations.
+- Confluence Zones: Identify zones where multiple signals align (e.g., indicator crosses a threshold while price approaches a key support/resistance level). These zones may offer higher-probability trading opportunities.
+- Fractal Patterns: Explore whether the indicator exhibits fractal behavior (i.e., similar patterns at different time scales). For example, does a daily overbought signal have the same implications as an hourly one?
+- Seasonality Effects: Investigate whether the indicator’s predictive power varies with time-based factors (e.g., time of day, day of the week, month of the year)
+5. Identify traditional thresholds for the technical indicator (e.g., overbought/oversold levels) and examine how price movements correlate with these thresholds. Look for patterns where crossing these thresholds precedes significant price changes
+6. Lead/Lag Dynamics and Predictive Signals
+- Early Warning Signals: Determine if the indicator provides early warning signals for price movements. For example, does a sudden spike in the indicator precede a breakout or reversal?
+- Confirmation Signals: Assess whether the indicator acts as a confirmation tool, validating price movements after they occur.
+- Lagging Behavior: Identify instances where the indicator lags price movements and explore why this might happen (e.g., smoothing effects in the calculation).
+- Threshold Sensitivity: Test how sensitive the indicator is to different threshold levels. For example, does a slight change in the overbought/oversold threshold significantly alter its predictive power?
+7. Synergies with Price Action and Market Structure
+- Support/Resistance Alignment: Examine whether the indicator’s signals align with key support/resistance levels. For example, does an overbought signal near a resistance level increase the likelihood of a reversal?
+- Trend Confirmation: Assess whether the indicator confirms or contradicts the prevailing trend. For example, does a bullish signal in an uptrend have higher reliability than in a downtrend?
+- Volume Interaction: Explore how trading volume interacts with the indicator’s signals. For example, does high volume during an overbought signal increase the probability of a reversal?
+- Candlestick Patterns: Investigate whether specific candlestick patterns (e.g., doji, engulfing) enhance the predictive power of the indicator’s signals
+8. Counterarguments and Limitations
+- False Signals: Identify instances where the indicator generates false signals (e.g., overbought signals followed by further price increases). Explore potential reasons (e.g., strong momentum, low liquidity).
+- Market Noise: Assess how sensitive the indicator is to market noise (e.g., minor price fluctuations that don’t reflect meaningful trends).
+- Regime Dependency: Determine whether the indicator’s effectiveness depends on specific market regimes (e.g., works well in trending markets but fails in sideways markets).
+- Data Limitations: Consider how the quality and granularity of the provided data might limit the analysis (e.g., missing data points, insufficient time range)
+- Hypothetical Scenarios: Hypothesize whether other technical indicators can be used alongside the current indicator to improve its predictive power. For example, can RSI be combined with a moving average to form a more effective trading strategy?
+9. Data-Driven Validation: Ensure that all conclusions are drawn solely from the provided data. Cross-reference each observation with specific data points to validate findings and avoid speculative leaps.
+10. Synthesis of Findings: Synthesize the findings from the above steps into a coherent narrative that explains the relationship between the technical indicator and stock price movements. Highlight any novel insights or unconventional patterns discovered.
+11. Predictive Validity Assessment: Assess the predictive validity of the technical indicator by summarizing the evidence supporting or refuting its effectiveness. Provide specific examples from the data to illustrate key points.
+12. Final Summary Preparation: Prepare a concise summary of the most significant findings, focusing on the practical implications for traders and the potential applications of the technical indicator in predicting price movements.

@@ -1,0 +1,107 @@
+1. Data Ingestion and Initial Processing:
+
+Identify Input Variables:
+
+{{TICKER}}: Stock ticker symbol.
+
+{{TECH_INDICATOR}}: Name of the technical indicator.
+
+{{PERIOD_START}}: Start date of the analysis period.
+
+{{PERIOD_END}}: End date of the analysis period.
+
+{{INTERVAL}}: Time interval (e.g., daily, hourly).
+
+{{STOCK_DATA}}: Time series data of the stock's price (Open, High, Low, Close).
+
+{{INDICATOR_DATA}}: Time series data of the technical indicator's values.
+
+Data Alignment:
+
+Ensure both {{STOCK_DATA}} and {{INDICATOR_DATA}} are aligned by date and time, corresponding to the specified {{INTERVAL}}.
+
+Handle any missing data points appropriately, noting them in the analysis if present. I will not impute or fill in any missing data.
+
+2. <detailed_examination> Section:
+
+a. Key Data Points and Patterns:
+
+Indicator Extremes: Identify dates and values where the {{TECH_INDICATOR}} reached highs, lows, or other significant levels (potential overbought/oversold).
+
+Price Extremes: Identify dates and values where the stock price ({{TICKER}}) reached significant highs or lows.
+
+Crossovers/Thresholds: Note dates where the indicator crossed key thresholds or moving averages (if applicable based on the indicator).
+
+Divergences: Observe instances where the indicator's trend (up/down) diverged from the stock price trend.
+
+Notable Chart Patterns: Look for any recognizable chart patterns in the stock price data (e.g., head and shoulders, double tops/bottoms) that might correlate with the indicator's behavior.
+
+Volume Spikes: In the {{STOCK_DATA}}, check for unusual volume activity that might coincide with indicator signals.
+
+b. Correlation Analysis:
+
+Visual Inspection: Plot the {{TECH_INDICATOR}} and stock price together to visually assess their relationship. I cannot generate charts but I will describe what a chart would show.
+
+Temporal Relationship: Compare the timing of indicator signals (e.g., crossovers, divergences) with subsequent price movements.
+
+Magnitude Correlation: Investigate if the magnitude of change in the indicator correlates with the magnitude of price change.
+
+Unconventional Relationships: Search for any non-standard patterns or relationships between the indicator and price that might not be immediately obvious.
+
+c. Lead/Lag, Overbought/Oversold, Triggers:
+
+Lead/Lag Identification: Determine if the indicator consistently signals before or after price movements, noting specific examples.
+
+Overbought/Oversold Zones: If the indicator has defined overbought/oversold zones, assess their effectiveness in predicting price reversals, using specific examples from the data.
+
+Unique Triggers: Identify any specific indicator values or patterns that reliably precede significant price changes.
+
+d. Counterarguments and Limitations:
+
+False Signals: Identify instances where the indicator gave a signal, but the expected price movement did not occur.
+
+Contradictory Data: Note any periods where the indicator and price movement directly contradicted each other.
+
+Indicator-Specific Limitations: Based on the data, point out any inherent limitations of the {{TECH_INDICATOR}} in the context of the provided {{TICKER}} and timeframe.
+
+e. Synergies with Other Signals:
+
+Hypothetical Combinations: Suggest, without reference to external knowledge, how the {{TECH_INDICATOR}} might be combined with other common technical signals.
+
+Example: "If the data showed a moving average, one could hypothesize that a trader might combine this with the {{TECH_INDICATOR}} to confirm trends." (Only if a moving average is actually present in the data.)
+
+Data-Driven Suggestions: Base suggestions on how other signals present in the provided data interacted with the {{TECH_INDICATOR}} in the past.
+
+f. Validation with Data References:
+
+Specific Examples: For each conclusion, cite specific dates, indicator values, and price movements from the data to support the claim.
+
+Quantitative Backing: Whenever possible, use quantitative measures (e.g., percentage change, number of periods) to strengthen the validation.
+
+3. <summary> Section:
+
+Concise Overview: Summarize the most significant findings from the <detailed_examination>.
+
+Key Predictive Signals: Highlight the most reliable and actionable signals identified.
+
+Trading Applications: Briefly suggest how a trader might use these insights to inform their trading decisions.
+
+Limitations Recap: Briefly reiterate the main limitations and potential pitfalls of relying solely on this indicator.
+
+4. <disclaimer> Section:
+
+Standard Disclaimer: Clearly state that the analysis is for informational purposes only and does not constitute financial advice.
+
+No Guarantee: Emphasize that past performance does not guarantee future results.
+
+Individual Responsibility: Remind the reader that they are solely responsible for their own investment decisions.
+
+Throughout the Analysis:
+
+Objectivity: Maintain an objective and unbiased tone.
+
+Clarity: Use clear and concise language, avoiding jargon where possible.
+
+Accuracy: Ensure all data references and calculations are accurate.
+
+No External Data: Absolutely no external knowledge or data will be used. All conclusions will be drawn solely from the provided data sets.

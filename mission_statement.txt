@@ -1,0 +1,13 @@
+#this is going to be a heavy workload, essentially the idea is to take all (large list) of stock data and that stocks associated technical indicators
+#then we are going to do a variety of things, the first is we are going to analyze with of the indicators (either individually or in combination) are BEST at predicting the given stocks price movement in the future
+#of course this will involve multiple time horizons, and we can base the time horizons on the typical expiration date of option contracts and work from a 1w 1m 3m 6m 1y back basis
+#now what we are also going to explore is whether the agent can derive a new indicator based on the pure stock data. An important aspect of this work is that we adequately sample the stocks price during the day
+#following an information theory sampling approach to properly reconstruct the signal. We will be trying to push the limits of what exactly AI can do ranging from understanding to research
+#this project is not fully defined yet, however a couple of important things that we must consider - ease of back testing is crucial, it should be very easy to check if the actual results given by the agent
+#hold up in practice, additionally we must avoid having the agent give information on data it was trained  (specifically if it was trained up to December 2024 and we backtest the performance on November 2024,
+#we want it to actually represent its capabilities then and not just memorize where the price actually went then)
+# , we are not doing this to get a "google search" out of the agent we are doing this to build a 
+#sophisticated hyper IQ quant and have it at our disposal at any moment. There are also going to be a few things externally like polymarket and other platforms that will probably come into play when actually
+#making a real life decision on what contracts or strategies to do. This now reminds me that to push super hard the agent should also almost ALWAYS be able to give an exact strategy that returns profits,
+#whether its a simple naked call option or an iron condor. I think this is doable and would be a great return. 
+
